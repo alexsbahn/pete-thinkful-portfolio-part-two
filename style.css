@@ -59,11 +59,15 @@ header {
 }
 
 .background-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
   margin-top: 40px;
   max-width: 900px;
   margin: auto;
   text-align: left;
-  align-items: center;
 }
 
 /*Portfolio Section*/
