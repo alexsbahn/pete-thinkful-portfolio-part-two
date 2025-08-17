@@ -63,6 +63,7 @@ header {
   max-width: 900px;
   margin: auto;
   text-align: left;
+  align-items: center;
 }
 
 /*Portfolio Section*/
