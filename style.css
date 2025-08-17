@@ -35,19 +35,20 @@ div {
 .about-section {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .about-section img {
   margin-right: 20px;
   margin-bottom: 20px;
+  align-items: left;
 }
 
 .about-section h2 {
   text-align: center;
 }
 
-.about-section p {
+.about-section h3 p {
   text-align: left;
 }
 
