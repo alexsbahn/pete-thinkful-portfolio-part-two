@@ -43,7 +43,7 @@ header {
   margin-right: auto;
 }
 
-.about-image{
+.about-image {
   flex-shrink: 0;
 }
 
@@ -88,10 +88,20 @@ header {
 
 /*Article Section*/
 
-article {
+/*article {
   padding: 50px 0;
   max-width: 1000px;
   margin: 0 auto;
+}*/
+
+/*article div { 
+  text-align: center;  
+  width: 100%; 
+} 
+  
+/* Paragraphs */
+p { 
+  line-height: 1.5;
 }
 
 /* Links */
