@@ -37,11 +37,10 @@ header {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 40px;
-  max-width: 900px;
+  /*margin-bottom: 40px;
+  max-width: 900px;*/
   margin-left: auto;
   margin-right: auto;
-  flex-direction:row;
 }
 
 .about-image {
@@ -76,7 +75,7 @@ header {
   margin: 40px auto;
 }
 
-.portfolio-section section p {
+.portfolio-section section {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -85,6 +84,7 @@ header {
 
 .portfolio-section section p {
   font-size: 14px;
+  text-align: center;
 }
 
 /*Article Section*/
