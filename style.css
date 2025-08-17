@@ -41,6 +41,7 @@ header {
   max-width: 1000px;
   margin: auto;
   padding: 50px 0;
+  width: 600px;
 }
 
 .about-image {
@@ -69,6 +70,7 @@ header {
   margin: auto;
   text-align: left;
   padding: 50px 0;
+  width: 600px;
 }
 
 /*Portfolio Section*/
