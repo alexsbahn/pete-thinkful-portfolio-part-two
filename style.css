@@ -32,27 +32,28 @@ div {
 }
 
 /*About Section*/
-#about .intro{
+.about-section{
   display: flex;
   align-items:flex-start;
   justify-content: space-between;
+  flex-direction: row;
 }
 
-#about .intro h3 {
+.about-section h3 {
   text-align: center;
   margin: 0;
 }
 
-#about .intro div{
+.about-section div{
   margin-left: 20px;
 }
 
-#about .intro p{
+.about-section p{
   text-align: left;
 }
 
 /* Pete's Background section */
-#about section:nth-child(2) {
+.background{
   margin-top: 40px; /* added to create some space between sections */
 }
 
@@ -67,9 +68,20 @@ article div {
   width: 100%;
 }
 
+.portfolio-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.portfolio-section p{
+  font-size: 14px;
 }
 
 /* Links */
