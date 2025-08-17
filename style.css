@@ -41,7 +41,10 @@ header {
   max-width: 900px
   margin-left: auto;
   margin-right: auto;
-  flex-direction: row;
+}
+
+.about-image{
+  flex-shrink: 0;
 }
 
 .about-text {
