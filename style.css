@@ -19,6 +19,9 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 /* Containers */
@@ -75,10 +78,4 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
-}
-
-.group{
-  display: flex;
-  justify-content: left;
-  align-items: center;
 }
