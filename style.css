@@ -60,7 +60,7 @@ header {
 
 .background-section {
   margin-top: 40px;
-  max-width: 700px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -72,6 +72,11 @@ header {
   display: flex;
   justify-content: space-around;
   gap: 20px;
+  margin-top: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .portfolio-section section {
@@ -103,11 +108,6 @@ header {
 /* Paragraphs */
 p { 
   line-height: 1.5;
-}
-
-section{
-  margin: 0 20px;
-  max-width: calc(100% - 40px);
 }
 
 /* Links */
